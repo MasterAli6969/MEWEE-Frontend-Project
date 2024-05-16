@@ -1,0 +1,18 @@
+.div {
+  width: 100%;
+  flex-grow: 1;
+  margin-bottom: 2rem;
+}
+
+.image_div {
+  display: flex;
+}
+
+.image_box {
+  height: 255px;
+  max-width: 400px;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  margin: 0.5rem;
+}

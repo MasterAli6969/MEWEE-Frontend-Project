@@ -1,0 +1,34 @@
+@import "src/mixins.scss";
+
+.div {
+  color: #25005c;
+  padding: 1rem;
+  > ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem 4rem;
+    margin: 5rem 0 2rem 0;
+    .li {
+      display: flex;
+      align-items: center;
+      @include hover-scale;
+    }
+    ._li_active {
+      border-bottom: 1px solid #fba500;
+      color: #fba500;
+    }
+  }
+  .sliders_div {
+    margin-top: 5rem;
+    .div_title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+  }
+}

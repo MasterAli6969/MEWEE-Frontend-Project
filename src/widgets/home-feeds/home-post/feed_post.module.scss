@@ -1,0 +1,8 @@
+@import "src/mixins.scss";
+
+.div {
+  display: flex;
+  flex-direction: column;
+  padding: 0.9rem;
+  gap: 10px;
+}
